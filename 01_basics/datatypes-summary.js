@@ -48,3 +48,29 @@ console.log(typeof bigNumber);
 
 console.log(typeof myfunction);
 
+
+// ++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive) , Heap(Non-Primitive )
+
+let myYtName= "niranjan"
+
+let anotherName= myYtName
+
+console.log(anotherName);
+
+
+let user ={
+    email: "user@gmail.com",
+    up:"user@ybl"
+}
+
+let uerTwo = user;
+
+console.log(uerTwo);
+
+uerTwo.email="userTwo@gmail.com"
+
+console.log(uerTwo.email);
+console.log(user.email);
+ 
